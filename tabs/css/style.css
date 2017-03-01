@@ -1,0 +1,62 @@
+body {
+	background: #000;
+}
+
+.tabs {
+	width: 350px;
+	margin: 10px;
+	border-radius: 2px;
+	background: #fff;
+}
+
+ul {
+	background: #000;
+}
+
+li {
+	display: inline-block;
+	padding: 10px;
+	margin: 2px 2px 0 0;
+	background-color: darkgrey;
+}
+
+a {
+	color: #000;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #000;
+	text-decoration: none;
+}
+
+iframe {
+	width: 380px;
+	height: 400px;
+	margin: 100px 0 0 450px;
+	border: 1px solid red;
+}
+
+p {
+	margin: 1px;
+	padding: 5px;
+}
+
+.active {
+	background: #fff;
+}
+
+.tabs__number1, 
+.tabs__number2, 
+.tabs__number3 {
+	display: none;
+}
+
+div .show {
+	display: block;
+}

@@ -1,0 +1,66 @@
+body {
+	background: #000;
+}
+
+iframe {
+	width: 500px;
+	height: 400px;
+	margin: 100px 0 0 450px;
+	border: 1px solid red;
+}
+
+form {
+	width: 485px;
+	height: 385px;
+	margin: 5px;
+	padding-top: 100px;
+	background: #fff;
+}
+
+label {
+	margin: 10px;
+	font-size: 16px;
+}
+
+input {
+	width: 150px;
+	height: 20px;
+}
+
+p {
+	display: inline;
+	float: left;
+	width: 75px;
+}
+
+div {
+	display: none;
+	width: 200px;
+	background: #ccc;
+	border: 1px solid #000;
+	-webkit-box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.75);
+}
+
+.show {
+	display: block;
+}
+
+.firstname__help {
+	position: absolute;
+	top:112px;
+	right: 45px;
+}
+
+.lastname__help {
+	position: absolute;
+	top:175px;
+	right: 45px;
+}
+
+.email__help {
+	position: absolute;
+	top:235px;
+	right: 45px;
+}
